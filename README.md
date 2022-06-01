@@ -136,7 +136,7 @@ SSH into the control node and follow the steps below:
 >    * update hosts file (see _Using the Playbook_ for more details)
 > * ```curl -LJO https://github.com/ABRaquel/ELK-Stack/blob/main/ansible/elk-deploy.yml``` 
 >    * copy elk-deploy.yml
-> * ```curl --create-dirs -O --output-dir files https://github.com/ABRaquel/cybersec/blob/main/Project_1-ELK_Stack/ansible/filebeat-cfg.yml && curl -O --output-dir files https://github.com/ABRaquel/cybersec/blob/main/Project_1-ELK_Stack/ansible/metricbeat-cfg.yml``` 
+> * ```curl --create-dirs -O --output-dir files https://github.com/ABRaquel/ELK-Stack/blob/main/ansible/filebeat-cfg.yml && curl -O --output-dir files https://github.com/ABRaquel/ELK-Stack/blob/main/ansible/metricbeat-cfg.yml``` 
 >    * downloads the yml files into ```files``` folder inside ```/etc/ansible```
 > * ```ansible-playbook elk-deploy.yml```
 >    * for ELK install 
